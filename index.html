@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Khủng Long Mất Điện</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="Nguetn.css" />
+  </head>
+  <body>
+    <div class="game-shell">
+      <div class="hud">
+        <div class="stat-box">
+          <span>Điểm</span>
+          <strong id="score">0</strong>
+        </div>
+        <div class="stat-box">
+          <span>Best</span>
+          <strong id="bestScore">0</strong>
+        </div>
+        <div class="stat-box wide">
+          <span>Máu</span>
+          <div class="bar"><div id="healthBar" class="fill health"></div></div>
+        </div>
+        <div class="stat-box wide">
+          <span>Năng lượng</span>
+          <div class="bar"><div id="energyBar" class="fill energy"></div></div>
+        </div>
+        <div class="stat-box">
+          <span>Vũ khí</span>
+          <strong id="weaponLabel">Súng thường</strong>
+        </div>
+      </div>
+
+      <canvas id="gameCanvas" width="900" height="500"></canvas>
+
+      <div class="controls">
+        <span>W / Space: nhảy</span>
+        <span>A / D: di chuyển</span>
+        <span>J: bắn</span>
+        <span>1 / 2 / 3: đổi vũ khí</span>
+        <span>H: tạm dừng / tiếp tục</span>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

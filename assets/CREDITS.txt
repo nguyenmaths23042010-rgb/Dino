@@ -1,0 +1,4 @@
+Dinosaur and cactus graphics are from Twemoji, an open-source emoji graphics project by jdecked, Justine De Caires, and contributors.
+Source: https://github.com/jdecked/twemoji
+License: CC BY 4.0, https://creativecommons.org/licenses/by/4.0/
+Assets used: 1f996.svg (T-Rex), 1f995.svg (sauropod), 1f335.svg (cactus).
